@@ -1,0 +1,103 @@
+﻿
+@font-face {
+    font-family: 'Druk Web';
+    src: url('C:\Users\Home\Downloads\Fonts\Druk Medium\Druk-Medium-Web.woff2') format('woff2'), url('C:\Users\Home\Downloads\Fonts\Druk Medium\Druk-Medium-Web.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.Druk-Medium-Web {
+    font-family: 'Druk Web';
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family: 'Favorit';
+    src: url('C:\Users\Home\Downloads\Fonts\Favorit.otf') format('otf');
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+.header {
+    height: 92px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.background {
+    height: 900px;
+    background: rgba(242, 241, 240, 1);
+    opacity: 1;
+    padding: 75px;
+}
+
+.form-inputs {
+    background-color: #F2F2F2;
+    border-radius: 7px;
+    border: none;
+    margin: 5px;
+}
+
+.infoBox {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 36px;
+    opacity: 1;
+}
+
+.button {
+    background: #F27662;
+    border-radius: 40px;
+    opacity: 1;
+    border: none;
+    color:white;
+      
+}
+
+.footer {
+    background: #E6E6E5;
+    height: 95px;
+    opacity: 1;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    padding: 15px;
+}
+
+.logo {
+    height: 25px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 336px;
+    height: 310px;
+    background-color: #F2F1F0;
+    border-radius: 40px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.design-team-div {
+    height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+}
